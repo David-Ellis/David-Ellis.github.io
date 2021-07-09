@@ -25,13 +25,23 @@
 
 <div class = "searchBox">
 	<input type = "text" onfocus="this.value=''" value="Enter name/id" id = "input"></input>
-	<button type="button"  onclick="get_gif('ditto')">Submit</button>
+	<button type="button"  onclick="get_gif('ditto')" id="submit">Submit</button>
 </div>
 </div>
 
 <div id = "gif_box">
 
 </div>	
+
+<script>
+var input = document.getElementById("input");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("submit").click();
+  }
+});
+</script>
 
 <div id = "footer">
 <p>

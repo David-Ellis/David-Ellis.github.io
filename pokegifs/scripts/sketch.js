@@ -3,9 +3,10 @@ function setup() {
 	noCanvas()
 }
 
+
 function get_gif() {
-		poke_name = document.getElementById("input").value
-		console.log(poke_name)
+		let poke_name = document.getElementById("input").value.toLowerCase().replace(/ /g, "")
+		//console.log(poke_name)
 		if (poke_name != "Enter Pokémon name/id"){
 			url = `https://pokeapi.co/api/v2/pokemon/${poke_name}`
 			pokeData = loadJSON(url, displayGif);
