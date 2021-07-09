@@ -46,13 +46,18 @@ body {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%;
-	color: #666666;
-	padding: 0pt;
+	right: 0px;
+	width: 540pt;
+	max-width: 95%;
+	color: white;
+	padding: 10pt;
+	background-color: #cc99ff;
+	border-radius: 30pt 30pt 0 0;
+	text-shadow: 0 0 2px black, 0 0 7px black;
 }
 
 #footer a{
-	color: #666666;
+	color: white;
 }
 
 #footer p{
