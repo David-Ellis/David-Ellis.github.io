@@ -1,0 +1,15 @@
+@media screen and (max-width: 800px) {
+	
+	#mainBox {
+		
+	padding: 30pt 0 30pt 0;
+
+}
+	
+	#outputWeather div{
+		display: block;
+		margin: 0 auto;
+		min-width: 60%;
+		margin-bottom: 5pt;
+	}
+}

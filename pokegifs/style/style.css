@@ -1,0 +1,72 @@
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+#mainBox {
+	background-color: #cc99ff;
+	color: white;
+	width: 540pt;
+	max-width: 95%;
+	margin: 0 auto;
+	margin-top: 20pt;
+	padding: 30pt 0 70pt 0;
+	border-radius: 60pt;
+	overflow: hidden;
+}
+
+#mainTitle {
+	text-align: center;
+	font-size: 40pt;
+	text-shadow: 0 0 5px black, 0 0 7px black;
+}
+
+.searchBox {
+	text-align: center;
+	font-size: 15pt;
+}
+
+.searchBox input{
+	width: 300pt;
+	max-width: 80%;
+	font-size: 15pt;
+}
+
+.searchBox input{
+	width: 300pt;
+	max-width: 80%;
+}
+
+.searchBox button{
+	font-size: 15pt;
+}
+
+
+#footer {
+	margin: 0 auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #666666;
+	padding: 0pt;
+}
+
+#footer a{
+	color: #666666;
+}
+
+#footer p{
+	width: 450pt;
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+#gif_box {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#gif_box img{
+	height: 10em;
+}
