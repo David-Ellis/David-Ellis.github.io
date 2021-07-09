@@ -29,9 +29,16 @@ function displayGif(){
 	outDiv.id("gif_box")
 	outDiv.parent(id = "mainBox")
 	//output.load(pokeData)
+	shiny = document.getElementById("shiny").checked;
+	let type;
+	if (!shiny){
+		type = "front_default";
+	} else {
+		type = "front_shiny";
+	}
 	
 	let gif_box = document.getElementById("gif_box");
-	let gif_url = pokeData["sprites"]["versions"]["generation-v"]["black-white"]["animated"]["front_default"];
+	let gif_url = pokeData["sprites"]["versions"]["generation-v"]["black-white"]["animated"][type];
 	
 	var img = document.createElement("img");
 	img.src = gif_url;

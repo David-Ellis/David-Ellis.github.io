@@ -1,6 +1,6 @@
 body {
 	font-family: 'Trebuchet MS', sans-serif;
-	padding-top:20%;
+	padding-top:15%;
 }
 
 #mainBox {
@@ -9,7 +9,7 @@ body {
 	width: 540pt;
 	max-width: 95%;
 	margin: 0 auto;
-	padding: 30pt 0 70pt 0;
+	padding: 30pt 0 30pt 0;
 	border-radius: 60pt;
 	overflow: hidden;
 }
@@ -18,6 +18,21 @@ body {
 	text-align: center;
 	font-size: 3em;
 	text-shadow: 0 0 5px black, 0 0 7px black;
+}
+
+#shiny_check {
+	margin:0 auto;
+	margin-left:20%;
+	margin-top:0.3em;
+	text-align:center-left;
+	font-size:1.3em;
+	text-align:left;
+	width:300pt;
+}
+
+#shiny {
+	margin:0;
+	margin-left:-100pt;
 }
 
 .searchBox {
@@ -69,7 +84,7 @@ body {
 
 #gif_box {
 	margin-top: 3em;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 	text-align: center;
 }
 
