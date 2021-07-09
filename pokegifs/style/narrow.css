@@ -2,16 +2,28 @@
 	
 	#mainBox {
 		
-	padding: 30pt 0 30pt 0;
+	padding: 10pt 0 15pt 0;
 
 	}
 	
 	#mainTitle {
-	font-size: 3em;
+	font-size: 2em;
 	}
 	
 	.searchBox input{
 	max-width: 70%;
+	}
+	
+	#submit {
+		display:none;
+	}
+	
+	#shiny_check {
+		margin-top:0;
+	}
+	
+	#footer {
+		max-width: 90%;
 	}
 }
 	
