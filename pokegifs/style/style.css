@@ -1,5 +1,6 @@
 body {
 	font-family: 'Trebuchet MS', sans-serif;
+	padding-top:20%;
 }
 
 #mainBox {
@@ -8,7 +9,6 @@ body {
 	width: 540pt;
 	max-width: 95%;
 	margin: 0 auto;
-	margin-top: 20pt;
 	padding: 30pt 0 70pt 0;
 	border-radius: 60pt;
 	overflow: hidden;
@@ -16,7 +16,7 @@ body {
 
 #mainTitle {
 	text-align: center;
-	font-size: 40pt;
+	font-size: 3em;
 	text-shadow: 0 0 5px black, 0 0 7px black;
 }
 
@@ -29,6 +29,7 @@ body {
 	width: 300pt;
 	max-width: 80%;
 	font-size: 15pt;
+	margin:10pt;
 }
 
 .searchBox input{
@@ -50,7 +51,7 @@ body {
 	width: 540pt;
 	max-width: 95%;
 	color: white;
-	padding: 10pt;
+	padding: 15pt;
 	background-color: #cc99ff;
 	border-radius: 30pt 30pt 0 0;
 	text-shadow: 0 0 2px black, 0 0 7px black;

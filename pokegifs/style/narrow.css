@@ -4,12 +4,15 @@
 		
 	padding: 30pt 0 30pt 0;
 
+	}
+	
+	#mainTitle {
+	font-size: 3em;
+	}
+	
+	.searchBox input{
+	max-width: 70%;
+	}
 }
 	
-	#outputWeather div{
-		display: block;
-		margin: 0 auto;
-		min-width: 60%;
-		margin-bottom: 5pt;
-	}
 }
