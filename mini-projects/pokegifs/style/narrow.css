@@ -31,4 +31,14 @@
 	}
 }
 	
+
+@media screen and (max-width: 400px) {
+	
+	#mainBox {
+		padding-top: 5pt;
+	}
+	#mainTitle {
+		margin-bottom: 2pt;
+	}
+
 }

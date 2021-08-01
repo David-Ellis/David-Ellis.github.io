@@ -23,6 +23,13 @@
 		margin-bottom: 5pt;
 	}
 }
+	
+	
+
+@media screen and (max-width: 400px) {
+	
+	#mainBox {
+		padding-top: 5pt;
+	}
 
 }
-	
