@@ -1,0 +1,132 @@
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+#mainBox {
+	background-color: #362e5c;
+	color: white;
+	width: 500pt;
+	max-width: 95%;
+	margin: 0 auto;
+	margin-top: 5em;
+	padding: 30pt 0 70pt 0;
+	border-radius: 60pt;
+	overflow: hidden;
+}
+
+#mainTitle {
+	text-align: center;
+	font-size: 40pt;
+	text-shadow: 0 0 5px black, 0 0 7px black;
+}
+
+.searchBox {
+	text-align: center;
+	font-size: 15pt;
+}
+
+.searchBox input{
+	width: 300pt;
+	max-width: 80%;
+	font-size: 15pt;
+}
+
+.searchBox input{
+	width: 300pt;
+	max-width: 80%;
+}
+
+.searchBox button{
+	font-size: 15pt;
+}
+
+#outputWeather {
+	padding-left:0pt;
+	padding-right:0pt;
+	width:550pt;
+	max-width: 95%;
+	margin: 0 auto;	
+	margin-top:20pt;
+}
+
+#weatherBoxes {
+	display: flex;
+}
+
+#outputWeather h2 {
+	font-size: 20pt;
+	margin-top: 20pt;
+	text-align: center;
+	margin-top: 5pt;
+}
+
+#weatherBoxes h3 {
+	margin-top: 5pt;
+	text-align: center;
+	color: white;
+	margin-bottom: 0.3em;
+}
+
+#weatherBoxes div{
+	
+	color: black;
+	width: 98pt;
+	background-color: #69659b;	
+	border: 1pt solid white;
+	display:inline-block;
+	position: relative;
+	/*margin-left:auto;
+	margin-right:auto;*/
+	overflow:hidden;
+	padding-bottom: 2px;
+}
+
+#invalid {
+	text-align: center;
+	font-size: 15pt;
+}
+
+#temp {
+	position: absolute;
+	margin:0;
+	top: 40px;
+	right: 8px;
+	font-size: 23px;
+	color: white;
+}
+
+#outputDesc {
+	margin: 5pt;
+	margin-top: 45pt;
+	color: white;
+}
+
+#weatherEmoji {
+	position: absolute;
+	top: 23px;
+	left: 2px;
+	font-size: 45px;
+	padding: 0pt;
+	margin-top:0;
+	color: white;
+}
+
+#footer {
+	margin: 0 auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #535353;
+	padding: 0pt;
+}
+
+#footer a{
+	color: #464646;
+}
+
+#footer p{
+	width: 450pt;
+	max-width: 95%;
+	margin: 0 auto;
+}

@@ -1,0 +1,59 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+
+#nav-links {
+    background-color: #292730;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav-links button {
+    margin: 0 0.1em 0 0.1em;
+    font-size: 1.4em;
+    padding: 0.4em;
+    color: white;
+    background-color: #292730;
+    border: none;
+    cursor: pointer;
+}
+
+#nav-links .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+#nav-links .dropbtn:hover {
+    background-color: rgb(75, 65, 83);
+}
+
+#nav-links .dropcont{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 209, 236);
+    min-width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+#nav-links .dropcont a{
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#uh-oh {
+    text-align: center;
+    font-size: 2em;
+    width: 15em;
+    max-width: 80%;
+    margin: 3em auto;
+}

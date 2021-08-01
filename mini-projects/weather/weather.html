@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <title>Dave's Weather App</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="narrow.css">
+
+	<!-- Main css and js -->
+	<link rel="stylesheet" href="../../style/main-style.css">
+	<script src="../../scripts/main-script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<div id = "nav-links">
+
+	<div class = "dropdown">
+		<!-- dropdown class to get align left property -->
+		<a href="../../index.html">
+			<button>Home</button>
+		</a>
+	</div>
+
+	<div class = "dropdown">
+		<button class="dropbtn" id="button1" onclick="myFunction('drop1')">Projects <i class="fa fa-caret-down"></i></button>
+		<div class = "dropcont" id = "drop1">
+			<a href="https://howsmynhs.co.uk/" target="_blank">Hows my NHS?</a>
+			<a href="https://ndacademy.github.io/" target="_blank">New Dimension Academy</a>
+		</div>
+	</div>
+
+	<div class = "dropdown">
+		<button class="dropbtn" id="button2" onclick="myFunction('drop2')">Mini projects <i class="fa fa-caret-down"></i></button>
+		<div class = "dropcont" id = "drop2">
+			<a href="../pokegifs/pokegif.html">Pokegif finder</a>
+			<a href="weather.html">Weather app</a>
+		</div>
+	</div>
+
+</div>
+
+
+<body>
+<div id = "mainBox">
+  <h1 id = "mainTitle">Dave's Weather</h1>
+
+
+<div class = "searchBox">
+	<input type = "text" onfocus="this.value=''" value="Type postcode" id = "input"></input>
+	<button type="button" id = "submit"  onclick="getInput()">Submit</button>
+</div>
+</div>
+
+<div id = "footer">
+<p>
+This page makes use of the postcode API from 
+<a href="https://postcodes.io" target="_blank">postcodes.io/</a> 
+and the weather API from <a href="https://openweathermap.org" target="_blank">openweathermap.org</a>. 
+To find more of my projects, please go to my <a href = "">GitHub page</a>.
+</p>
+<div>
+<script>
+  var input = document.getElementById("input");
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      document.getElementById("submit").click();
+    }
+  });
+</script>
+
+</body>
+</html>

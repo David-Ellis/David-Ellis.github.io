@@ -37,6 +37,13 @@
 	<script src="scripts/sketch.js"></script>
 	<link rel="stylesheet" href="style/style.css">
 	<link rel="stylesheet" href="style/narrow.css">
+
+	<!-- Main css and js -->
+	<link rel="stylesheet" href="../../style/main-style.css">
+	<script src="../../scripts/main-script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 	<style>
 	body{
 	background-image: url(images/background.png);
@@ -46,6 +53,34 @@
 </head>
 
 <body>
+
+<div id = "nav-links">
+
+	<div class = "dropdown">
+		<!-- dropdown class to get align left property -->
+		<a href="../../index.html">
+			<button>Home</button>
+		</a>
+	</div>
+
+	<div class = "dropdown">
+		<button class="dropbtn" id="button1" onclick="myFunction('drop1')">Projects <i class="fa fa-caret-down"></i></button>
+		<div class = "dropcont" id = "drop1">
+			<a href="https://howsmynhs.co.uk/" target="_blank">Hows my NHS?</a>
+			<a href="https://ndacademy.github.io/" target="_blank">New Dimension Academy</a>
+		</div>
+	</div>
+
+	<div class = "dropdown">
+		<button class="dropbtn" id="button2" onclick="myFunction('drop2')">Mini projects <i class="fa fa-caret-down"></i></button>
+		<div class = "dropcont" id = "drop2">
+			<a href="#">Pokegif finder</a>
+			<a href="..\weather\weather.html">Weather app</a>
+		</div>
+	</div>
+
+</div>
+
 <div id = "mainBox">
   <h1 id = "mainTitle">Pokémon gif finder</h1>
 
