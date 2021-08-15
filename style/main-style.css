@@ -70,6 +70,10 @@ body {
     text-decoration: none;
 }
 
+.physics-box h2{
+    margin-top: 1em;
+}
+
 .physics-box li{
     margin-bottom: 0.7em;
 }
@@ -80,3 +84,4 @@ body {
     margin: 5em auto -40px auto;
     border-radius: 10em;
 }
+
