@@ -28,7 +28,7 @@ body {
     overflow: hidden;
   }
 
-#nav-links .dropbtn:hover {
+#nav-links button:hover {
     background-color: rgb(75, 65, 83);
 }
 
@@ -50,10 +50,10 @@ body {
     text-align: left;
 }
 
-#uh-oh {
+#hi {
     text-align: center;
     font-size: 2em;
-    width: 15em;
+    width: 25em;
     max-width: 80%;
     margin: 3em auto;
 }
@@ -72,4 +72,11 @@ body {
 
 .physics-box li{
     margin-bottom: 0.7em;
+}
+
+#mypic {
+    display: block;
+    width: 13em;
+    margin: 5em auto -40px auto;
+    border-radius: 10em;
 }
