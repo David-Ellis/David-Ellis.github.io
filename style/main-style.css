@@ -57,3 +57,19 @@ body {
     max-width: 80%;
     margin: 3em auto;
 }
+
+.physics-box {
+    font-size: 1.1em;
+    width: 40em;
+    max-width: 90%;
+    margin: 3em auto;
+}
+
+.physics-box a{
+    color:rgb(25, 76, 143);
+    text-decoration: none;
+}
+
+.physics-box li{
+    margin-bottom: 0.7em;
+}
