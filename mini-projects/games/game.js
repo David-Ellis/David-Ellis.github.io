@@ -19,26 +19,26 @@ scene("game", ( {score} ) => {
     layers(["bg", "obj", "ui"], "obj")
 
     const map = [
-        "|                                      |",
-        "|                                      |",
-        "|=================    =================|",
-        "|                                      |",
-        "|                                      |",
-        "|                                      |",
-        "|                                      |",
-        "|          ==================          |",
-        "|                                      |",
-        "|                                      |",
-        "|                                      |",
-        "|                                      |",
-        "|=================    =================|",
-        "|                                      |",
-        "|                                      |",
-        "|                                      |",
-        "|                                      |",
-        "|          ==================          |",
-        "|                                      |",
-        "|                                      |",
+        "|                                   |",
+        "|                                   |",
+        "|===============     ===============|",
+        "|                                   |",
+        "|                                   |",
+        "|                                   |",
+        "|                                   |",
+        "|         =================         |",
+        "|                                   |",
+        "|                                   |",
+        "|                                   |",
+        "|                                   |",
+        "|===============     ===============|",
+        "|                                   |",
+        "|                                   |",
+        "|                                   |",
+        "|                                   |",
+        "|         =================         |",
+        "|                                   |",
+        "|                                   |",
     ]
 
 
@@ -71,6 +71,8 @@ scene("game", ( {score} ) => {
 
     loop(5, () => {
         scoreLabel.value += 1
+        score += 1
+        console.log(score)
         scoreLabel.text = scoreLabel.value
         const initPos = Math.floor(Math.random() * 2400)
         let dir = 0
@@ -99,12 +101,12 @@ scene("game", ( {score} ) => {
     ])
 
     player.collides("dangerous", (d) => {
-        go("lose", { score:score })
+        go("lose", { score })
     })
 
     player.action(()=> {
         if (player.pos.y >= FALL_DEATH) {
-            go("lose", { score:score })
+            go("lose", { score })
         }
     })
 
