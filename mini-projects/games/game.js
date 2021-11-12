@@ -14,9 +14,10 @@ FALL_DEATH = 1400
 loadSprite("brick", "https://i.imgur.com/HvcsL2g.png")
 loadSprite("player", "https://i.imgur.com/WkGDSd6.png")
 loadSprite("zombie", "https://i.imgur.com/DmA2S0c.png")
+loadSprite("wood", "https://i.imgur.com/LnGTA6a.png")
 
 scene("game", ( {score} ) => {
-    layers(["bg", "obj", "ui"], "obj")
+    layers(["bg", "obj"], "obj")
 
     const map = [
         "|                                   |",
@@ -63,17 +64,29 @@ scene("game", ( {score} ) => {
 
     let scoreLabel = add([text(score, 40),
         pos(100, 20),
-        layer("ui"),
+        layer("bg"),
         {
             value: score
         }
     ])
 
+
+
+
+
     loop(5, () => {
-        scoreLabel.value += 1
+        add([
+            sprite("wood"),
+            pos(0, 0),
+            layer("bg")
+        ]) 
+        
         score += 1
-        console.log(score)
-        scoreLabel.text = scoreLabel.value
+        add([text(score, 40),
+            pos(100, 20),
+            layer("bg"),
+        ])
+
         const initPos = Math.floor(Math.random() * 2400)
         let dir = 0
         if (initPos > 1200) {
@@ -143,7 +156,7 @@ scene("game", ( {score} ) => {
 })
 
 scene("lose", ({ score }) => {
-    add([text("You lose!", 100), origin("center"), pos(width()/2, height()/2)])
+    add([text("You died!", 100), origin("center"), pos(width()/2, height()/2)])
     add([text("score : " + String(score), 60), origin("center"), pos(width()/2, height()*0.6)])
 })
 
