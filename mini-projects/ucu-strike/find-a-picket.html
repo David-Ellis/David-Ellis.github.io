@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YFWY2SLGWT"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-YFWY2SLGWT');
+	</script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>UCU Picket Finder.</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+  <script src="sketch.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="narrow.css">
+
+	<!-- Main css and js -->
+	<link rel="stylesheet" href="../../style/main-style.css">
+	<link rel="stylesheet" href="../../style/main-narrow.css">
+	<script src="../../scripts/main-script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+
+<body>
+<div id = "mainBox">
+  <h1 id = "mainTitle">Find your nearest picket</h1>
+
+
+<div class = "searchBox">
+	<input type = "text" onfocus="this.value=''" value="Type postcode" id = "input"></input>
+	<button type="button" id = "submit"  onclick="getInput()">Submit</button>
+</div>
+</div>
+
+<!-- <div id = "footer">
+<p>
+We have no affiliation with the UCU. This page makes use of the postcode API from 
+<a href="https://postcodes.io" target="_blank">postcodes.io/</a>.
+</p>
+<div> -->
+
+<script>
+  var input = document.getElementById("input");
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      document.getElementById("submit").click();
+    }
+  });
+</script>
+
+</body>
+</html>
