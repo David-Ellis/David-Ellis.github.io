@@ -1,23 +1,29 @@
 body {
 	font-family: 'Trebuchet MS', sans-serif;
+	background: #87ceeb;
+	background-image: url("footer_image.png");
+    background-position: 0% 100%;
+    background-attachment: fixed;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 
 #mainBox {
-	background-color: #362e5c;
-	color: white;
+	color: black;
+	background-color: white;
 	width: 500pt;
 	max-width: 95%;
 	margin: 0 auto;
 	margin-top: 5em;
 	padding: 30pt 0 70pt 0;
-	border-radius: 60pt;
 	overflow: hidden;
+	border: 3px solid #f63e9c;
 }
 
 #mainTitle {
 	text-align: center;
-	font-size: 40pt;
-	text-shadow: 0 0 5px black, 0 0 7px black;
+	font-size: 35pt;
+	color: rgb(32, 14, 86);	
 }
 
 .searchBox {
@@ -40,45 +46,44 @@ body {
 	font-size: 15pt;
 }
 
-#outputWeather {
-	padding-left:0pt;
-	padding-right:0pt;
-	width:550pt;
+#outputInfo {
+	width:100%;
 	max-width: 95%;
 	margin: 0 auto;	
 	margin-top:20pt;
 }
 
-#weatherBoxes {
-	display: flex;
+#outputInfo table{
+	margin: 0 auto;
+	padding: 0;
+	border-collapse: collapse;
 }
 
-#outputWeather h2 {
+#outputInfo td{
+	text-align: left;
+	padding-left: 10pt;
+	padding-right: 5pt;		
+}
+#outputInfo th{
+	text-align: right;
+	border-right: 1px solid white;
+	padding-right: 10pt;
+	padding-left: 5pt;
+	padding-bottom: 5pt;
+}
+
+#outputInfo tr:nth-child(even) {
+	background-color:rgba(246, 64, 156, 0.1);	
+}
+#outputInfo tr:nth-child(odd) {
+	background-color:rgb(246, 64, 156, 0.2); 
+}
+
+#outputInfo h2 {
 	font-size: 20pt;
 	margin-top: 20pt;
 	text-align: center;
 	margin-top: 5pt;
-}
-
-#weatherBoxes h3 {
-	margin-top: 5pt;
-	text-align: center;
-	color: white;
-	margin-bottom: 0.3em;
-}
-
-#weatherBoxes div{
-	
-	color: black;
-	width: 98pt;
-	background-color: #69659b;	
-	border: 1pt solid white;
-	display:inline-block;
-	position: relative;
-	/*margin-left:auto;
-	margin-right:auto;*/
-	overflow:hidden;
-	padding-bottom: 2px;
 }
 
 #invalid {
@@ -101,15 +106,6 @@ body {
 	color: white;
 }
 
-#weatherEmoji {
-	position: absolute;
-	top: 23px;
-	left: 2px;
-	font-size: 45px;
-	padding: 0pt;
-	margin-top:0;
-	color: white;
-}
 
 #footer {
 	margin: 0 auto;
