@@ -158,8 +158,20 @@ function makeTable(parent_id, index) {
 
 			header = createElement('th', info_items[i])
 			header.parent(row)
-			info = createElement('td', info_data)
-			info.parent(row)
+
+			if (i < 2){
+				info = createElement('td', info_data)
+				info.parent(row)
+			} else {
+				info = createElement('td', "")
+				info.parent(row)
+				link = createA("https://" + info_data,
+					info_data, "_blank");
+				link.parent(info)
+								
+			}
+
+
 		}
 
 	}	
