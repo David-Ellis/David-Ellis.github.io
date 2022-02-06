@@ -22,6 +22,11 @@
 		min-width: 60%;
 		margin-bottom: 5pt;
 	}
+
+	body {
+		background-size: 300% auto;
+	}
+
 }
 	
 	
@@ -30,6 +35,10 @@
 	
 	#mainBox {
 		padding-top: 5pt;
+	}
+
+	body {
+		background-size: 300% auto;
 	}
 
 }
