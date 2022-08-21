@@ -1,0 +1,128 @@
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	background: #87ceeb;
+	background-image: url("footer_image.png");
+    background-position: 0% 100%;
+    background-attachment: fixed;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#mainBox {
+	color: black;
+	background-color: white;
+	width: 500pt;
+	max-width: 95%;
+	margin: 0 auto;
+	margin-top: 5em;
+	padding: 30pt 0 70pt 0;
+	overflow: hidden;
+	border: 3px solid #f63e9c;
+}
+
+#mainTitle {
+	text-align: center;
+	font-size: 35pt;
+	color: rgb(32, 14, 86);	
+}
+
+.searchBox {
+	text-align: center;
+	font-size: 15pt;
+}
+
+.searchBox input{
+	width: 300pt;
+	max-width: 80%;
+	font-size: 15pt;
+}
+
+.searchBox input{
+	width: 300pt;
+	max-width: 80%;
+}
+
+.searchBox button{
+	font-size: 15pt;
+}
+
+#outputInfo {
+	width:100%;
+	max-width: 95%;
+	margin: 0 auto;	
+	margin-top:20pt;
+}
+
+#outputInfo table{
+	margin: 0 auto;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+#outputInfo td{
+	text-align: left;
+	padding-left: 10pt;
+	padding-right: 5pt;		
+}
+#outputInfo th{
+	text-align: right;
+	border-right: 1px solid white;
+	padding-right: 10pt;
+	padding-left: 5pt;
+	padding-bottom: 5pt;
+}
+
+#outputInfo tr:nth-child(even) {
+	background-color:rgba(246, 64, 156, 0.1);	
+}
+#outputInfo tr:nth-child(odd) {
+	background-color:rgb(246, 64, 156, 0.2); 
+}
+
+#outputInfo h2 {
+	font-size: 20pt;
+	margin-top: 20pt;
+	text-align: center;
+	margin-top: 5pt;
+}
+
+#invalid {
+	text-align: center;
+	font-size: 15pt;
+}
+
+#temp {
+	position: absolute;
+	margin:0;
+	top: 40px;
+	right: 8px;
+	font-size: 23px;
+	color: white;
+}
+
+#outputDesc {
+	margin: 5pt;
+	margin-top: 45pt;
+	color: white;
+}
+
+
+#footer {
+	margin: 0 auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #535353;
+	padding: 0pt;
+}
+
+#footer a{
+	color: #464646;
+}
+
+#footer p{
+	width: 450pt;
+	max-width: 95%;
+	margin: 0 auto;
+}

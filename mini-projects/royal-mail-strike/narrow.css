@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+	
+	#mainBox {
+	padding: 10pt 0 15pt 0;
+	}
+	
+	#mainTitle {
+	font-size: 2em;
+	}
+	
+	.searchBox input{
+	max-width: 70%;
+	}
+	
+	#submit {
+		display:none;
+	}
+
+	#outputWeather div{
+		display: block;
+		margin: 0 auto;
+		min-width: 60%;
+		margin-bottom: 5pt;
+	}
+
+	body {
+		background-size: 300% auto;
+	}
+
+}
+	
+	
+
+@media screen and (max-width: 400px) {
+	
+	#mainBox {
+		padding-top: 5pt;
+	}
+
+	body {
+		background-size: 300% auto;
+	}
+
+}
