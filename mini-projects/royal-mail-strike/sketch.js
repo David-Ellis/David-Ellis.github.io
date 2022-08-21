@@ -147,7 +147,7 @@ function getNearestPicket() {
 }
 
 function makeTable(parent_id, index) {
-	const info_items = ["Name"]
+	const info_items = ["Name", "Address"]
 	table = createElement('table');
 	table.parent(parent_id)
 	for (var i in info_items){
