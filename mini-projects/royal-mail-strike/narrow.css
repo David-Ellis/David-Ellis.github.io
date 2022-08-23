@@ -1,16 +1,18 @@
 @media screen and (max-width: 800px) {
 	
 	#mainBox {
-		margin-top: 7em;
+		margin-top: 9em;
 		padding: 10pt 0 15pt 0;
 	}
 	
 	#mainTitle {
 	font-size: 2em;
+	margin-bottom: 20pt;
 	}
 	
 	.searchBox input{
 	max-width: 70%;
+	margin-bottom: 25pt;
 	}
 	
 	#submit {
