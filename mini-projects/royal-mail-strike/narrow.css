@@ -1,7 +1,8 @@
 @media screen and (max-width: 800px) {
 	
 	#mainBox {
-	padding: 10pt 0 15pt 0;
+		margin-top: 7em;
+		padding: 10pt 0 15pt 0;
 	}
 	
 	#mainTitle {
@@ -25,6 +26,14 @@
 
 	body {
 		background-size: 300% auto;
+	}
+
+	#back_button {
+		width: 4em;
+		padding: 1em;
+		position: absolute;
+		top: 0px;
+		left: 0px;
 	}
 
 }
