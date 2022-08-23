@@ -20,6 +20,8 @@ body {
 	border: 3px solid #f63e9c;
 }
 
+
+
 #mainTitle {
 	text-align: center;
 	font-size: 35pt;
@@ -106,6 +108,13 @@ body {
 	color: white;
 }
 
+#back_button {
+	width: 5em;
+	padding: 1em;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
 
 #footer {
 	margin: 0 auto;
@@ -126,3 +135,4 @@ body {
 	max-width: 95%;
 	margin: 0 auto;
 }
+
