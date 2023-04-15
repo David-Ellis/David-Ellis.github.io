@@ -4,13 +4,27 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+html {
+    overflow-y: scroll;
+  }
 
 #nav-links {
     background-color: #292730;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     overflow: hidden;
+}
+
+#center-linkbox {
+    max-width: 60%;
+    margin: auto;
+}
+
+#right-links {
+    float: right;
 }
 
 #nav-links button {
@@ -60,7 +74,7 @@ body {
 
 .physics-box {
     font-size: 1.1em;
-    width: 40em;
+    width: 60%;
     max-width: 90%;
     margin: 3em auto;
 }
