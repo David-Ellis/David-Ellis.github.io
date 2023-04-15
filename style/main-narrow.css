@@ -1,6 +1,18 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 	
 	#nav-links button {
-		font-size: 1.2em;
+		font-size: 1.1em;
+	}
+
+	#mypic {
+		margin: 0 auto
+	}
+
+	.home-box{
+		margin-top: 1.5em;
+	}
+
+	.home-box h2{
+		text-align:center;
 	}
 }

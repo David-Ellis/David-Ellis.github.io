@@ -90,9 +90,9 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 1.1em;
-    width: 60%;
-    max-width: 60em; 
+    max-width: 53em; 
     margin: 3em auto;
+    /*border:solid #292730;*/
 }
 
 .home-box hr{
@@ -166,4 +166,17 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+.porfolio-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    max-width: 53em; 
+    margin: 1em auto;
+}
+
+#myBtnContainer {
+    margin: 1em auto;
 }
