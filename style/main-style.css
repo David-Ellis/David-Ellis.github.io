@@ -17,7 +17,7 @@ html {
 }
 
 #center-linkbox {
-    max-width: 60%;
+    max-width: 60em; 
     margin: auto;
 }
 
@@ -68,8 +68,7 @@ html {
 
 .physics-box {
     font-size: 1.1em;
-    width: 60%;
-    max-width: 90%;
+    max-width: 53em; 
     margin: 3em auto;
 }
 
@@ -92,13 +91,13 @@ html {
     flex-wrap: wrap;
     font-size: 1.1em;
     width: 60%;
-    max-width: 90%;
+    max-width: 60em; 
     margin: 3em auto;
 }
 
 .home-box hr{
-    width:70%;
-    text-align:center;
+    width: 70%;
+    text-align: center;
     margin: 2em;
     margin-left: 15%;
     margin-right: 15%;
@@ -149,7 +148,7 @@ html {
 
 #mypic {
     width: 15em;
-    margin: 0em 1em 0.5em 0em;
+    margin: 0em 2em 0.5em 0em;
     border-radius: 1em;
 }
 
