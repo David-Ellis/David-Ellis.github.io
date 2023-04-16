@@ -1,0 +1,52 @@
+.porfolio-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    max-width: 53em; 
+    margin: 1em auto;
+}
+
+#myBtnContainer {
+    margin: 1em auto;
+}
+
+#myBtnContainer button {
+    padding: 0.5em;
+    margin: 0.1em 0.2em;
+    font-size: 0.8em;
+    color: #292730;
+    background-color: #d6d6d6;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 0.3em;
+}
+
+#myBtnContainer button:hover {
+    background-color: #b0b0b0;
+}
+
+#myBtnContainer .btn.active {
+    background-color: #666;
+    color: white;   
+  }
+
+.portfolio-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.portfolio-container div{
+    float: left;
+    color: #292730;
+    width: 11em;
+    padding: 1em 0.5em;
+    margin: 0.3em 0.5em;
+    border: solid 1px #8c8996;
+    border-radius: 0.3em;
+    /*display: none;*/
+}
