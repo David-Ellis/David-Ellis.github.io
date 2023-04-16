@@ -45,7 +45,7 @@
     color: #292730;
     width: 14em;
     padding: 0;
-    margin: 0.3em 0.45em;
+    margin: 0.3em 0.35em;
     border: solid 1px #8c8996;
     border-radius: 0.3em;
     display: none;
@@ -60,7 +60,7 @@
 }
 
 .filterDiv{
-    box-shadow: 2px 2px 2px #d6d5d6;
+    box-shadow: 2   px 2px 2px #d6d5d6;
 }
 
 .filterDiv h3 {

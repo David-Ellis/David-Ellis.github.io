@@ -100,7 +100,7 @@ html {
     margin: 2em;
     margin-left: 15%;
     margin-right: 15%;
-    border: 2px solid  rgb(169, 201, 255);
+    border: 2px solid rgb(169, 201, 255);
     border-radius: 5px;
 }
 
@@ -126,6 +126,8 @@ html {
 
 }
 
+
+
 .socials {
     margin: auto;
 }
@@ -148,7 +150,6 @@ html {
 #mypic {
     width: 15em;
     margin: 0em 2em 0.5em 0em;
-    border-radius: 1em;
 }
 
 a:link {
