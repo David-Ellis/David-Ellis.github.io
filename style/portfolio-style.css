@@ -40,7 +40,7 @@
     margin: 0 auto;
 }
 
-.portfolio-container div{
+.filterDiv{
     float: left;
     color: #292730;
     width: 11em;
@@ -48,5 +48,9 @@
     margin: 0.3em 0.5em;
     border: solid 1px #8c8996;
     border-radius: 0.3em;
-    /*display: none;*/
+    display: none;
 }
+
+.show {
+    display:block;
+  }
