@@ -11,10 +11,6 @@ function myFunction(dropID) {
     window.onclick = function(e) {
         if (!e.target.matches('#button2')) {
             document.getElementById("drop2").style.display = "none";
-
-        if (!e.target.matches('#button3')) {
-                document.getElementById("drop3").style.display = "none";
-            }
         }
     }
 
