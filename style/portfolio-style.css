@@ -3,7 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 1.1em;
-    max-width: 53em; 
+    max-width: 60em; 
     margin: 1em auto;
 }
 
@@ -43,12 +43,60 @@
 .filterDiv{
     float: left;
     color: #292730;
-    width: 11em;
-    padding: 1em 0.5em;
-    margin: 0.3em 0.5em;
+    width: 14em;
+    padding: 0;
+    margin: 0.3em 0.45em;
     border: solid 1px #8c8996;
     border-radius: 0.3em;
     display: none;
+    overflow:hidden;
+}
+
+.filterDiv img{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.filterDiv h3 {
+    margin-top: 0.2em;
+    margin-left: 0.3em;
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+}
+
+.filterDiv p {
+    margin-top: 0.1em;
+    margin-left: 0.4em;
+    font-size: 0.9em;
+}
+
+.filterDiv hr{
+    margin-left: 0.3em;
+    margin-right: 0.4em;
+    border: 1px solid  rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+.filterDiv a:link {
+    text-decoration: none;
+    color: #292730;
+}
+
+.filterDiv a:visited {
+    text-decoration: none;
+    color: #292730;
+}
+
+.filterDiv a:hover {
+    text-decoration: none;
+    color: #292730;
+}
+
+.filterDiv a:active {
+    text-decoration: none;
+    color: #292730;
 }
 
 .show {
