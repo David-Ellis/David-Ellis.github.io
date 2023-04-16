@@ -59,6 +59,10 @@
     object-fit: cover;
 }
 
+.filterDiv{
+    box-shadow: 2px 2px 2px #d6d5d6;
+}
+
 .filterDiv h3 {
     margin-top: 0.2em;
     margin-left: 0.3em;
