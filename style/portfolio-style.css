@@ -9,6 +9,7 @@
 
 #myBtnContainer {
     margin: 1em auto;
+    text-align: center
 }
 
 #myBtnContainer button {
@@ -33,9 +34,10 @@
   }
 
 .portfolio-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 14em);
+    grid-gap: 0.35em;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
 }
@@ -43,9 +45,7 @@
 .filterDiv{
     float: left;
     color: #292730;
-    width: 14em;
     padding: 0;
-    margin: 0.3em 0.35em;
     border: solid 1px #8c8996;
     border-radius: 0.3em;
     display: none;
