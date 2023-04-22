@@ -36,7 +36,7 @@
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, 14em);
-    grid-gap: 0.35em;
+    grid-gap: 0.6em;
     justify-content: center;
     width: 100%;
     margin: 0 auto;
@@ -60,7 +60,7 @@
 }
 
 .filterDiv{
-    box-shadow: 2   px 2px 2px #d6d5d6;
+    box-shadow: 2px 2px 2px #cdcdcd;
 }
 
 .filterDiv h3 {
