@@ -73,7 +73,8 @@
 .filterDiv p {
     margin-top: 0.1em;
     margin-left: 0.4em;
-    font-size: 0.85em;
+    /* margin-bottom:0.5em; */
+    font-size: 0.8em;
 }
 
 .filterDiv hr{
@@ -106,3 +107,94 @@
 .show {
     display:block;
   }
+
+.hashtag {
+    line-height: 1.5em;
+}
+
+.hashtag span{
+    padding: 2px;
+    border-radius: 0.4em;
+    margin-right: 0.2em;
+    font-size: 0.9em;
+}
+
+.hashtag span.python{
+    background-color: rgba(0, 0, 255, 0.149);
+}
+
+.hashtag span.datavis{
+    background-color: rgba(255, 0, 0, 0.149);
+}
+
+.hashtag span.matplotlib{
+    background-color: rgba(0, 145, 255, 0.149);
+}
+
+.hashtag span.numpy{
+    background-color: rgba(0, 255, 64, 0.149);
+}
+
+.hashtag span.R{
+    background-color: rgba(0, 191, 255, 0.149);
+}
+
+.hashtag span.dplyr{
+    background-color: rgba(246, 255, 0, 0.149);
+}
+
+.hashtag span.maps{
+    background-color: rgba(0, 78, 8, 0.149);
+}
+
+.hashtag span.pandas{
+    background-color: rgba(77, 77, 77, 0.149);
+}
+
+.hashtag span.physics{
+    background-color: rgba(133, 0, 137, 0.149);
+}
+
+.hashtag span.latex{
+    background-color: rgba(158, 79, 0, 0.149);
+}
+
+.hashtag span.WebDev{
+    background-color: rgba(158, 0, 142, 0.149);
+}
+
+.hashtag span.js{
+    background-color: rgba(212, 99, 0, 0.149);
+}
+
+.hashtag span.html{
+    background-color: rgba(192, 186, 0, 0.149);
+}
+
+.hashtag span.css{
+    background-color: rgba(241, 0, 36, 0.149);
+}
+
+.hashtag span.scipy{
+    background-color: rgba(0, 241, 169, 0.226);
+}
+
+
+.hashtag span.api{
+    background-color: rgba(241, 0, 56, 0.226);
+}
+
+.hashtag span.GameDev{
+    background-color: rgba(131, 52, 0, 0.226);
+}
+
+.hashtag span.pygame{
+    background-color: rgba(197, 184, 0, 0.226);
+}
+
+
+
+/* <span class="WebDev">#WebDev </span>
+<span class="html">#html </span>
+<span class="js">#JavaScript </span>
+<span class="css">#css </span> */
