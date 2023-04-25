@@ -45,14 +45,16 @@ html {
   }
 
 #nav-links button:hover {
-    background-color:#3e3b48;
+    text-decoration: underline;
+    color: #cda6d6;
+    transition: 0.2s;	
 }
 
 #nav-links .dropcont{
     display: none;
     position: absolute;
-    background-color: rgb(196, 216, 251);
-    min-width: 15em;
+    background-color: #d7b8de;
+    min-width: 7em;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -101,7 +103,7 @@ html {
     margin: 2em;
     margin-left: 15%;
     margin-right: 15%;
-    border: 2px solid rgb(169, 201, 255);
+    border: 2px solid rgb(196, 216, 251)
     border-radius: 5px;
 }
 
@@ -117,7 +119,7 @@ html {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 2.5em;
-    text-shadow: 2px 2px rgb(169, 201, 255);
+    text-shadow: 2px 2px #b983c6;
 }
 
 #hi li{
@@ -137,14 +139,16 @@ html {
     width:2.5em;
     height:2.5em;
     margin:0.4em;
-    filter: grayscale(100%);
-    transition: 0.4s;
+    filter:grayscale(100%) brightness(140%);
+    transition: 0.2s;
     border-radius: 0.3em;
-    
 }
 
 .socials img:hover{
-    filter: grayscale(0%);
+    filter: grayscale(0%) brightness(100%);
+    width: 2.7em;
+    height: 2.7em;
+    margin: 0.3em;
 }
 
 
