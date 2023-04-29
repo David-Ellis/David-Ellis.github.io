@@ -68,7 +68,7 @@
 }
 
 .filterDiv img:hover {
-    filter:invert(20%);
+    filter:invert(10%);
     mix-blend-mode: overlay; 
 }
 
