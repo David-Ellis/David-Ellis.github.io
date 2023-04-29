@@ -84,7 +84,7 @@
 }
 
 .filterDiv h3:hover {
-    color: #a276ac;
+    color: rgb(175,113,190);;
 }
 
 .filterDiv p {
@@ -213,9 +213,9 @@
     background-color: rgba(0, 94, 184, 0.226);
 }
 
-
-
-/* <span class="WebDev">#WebDev </span>
-<span class="html">#html </span>
-<span class="js">#JavaScript </span>
-<span class="css">#css </span> */
+#sub-link {
+    color: rgb(175,113,190);
+}
+#sub-link:hover {
+    text-decoration: underline;
+}
