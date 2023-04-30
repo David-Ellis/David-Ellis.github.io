@@ -2,10 +2,30 @@
 	.physics-box {
 		max-width: 90%;
 	}
+
+	#hi h2{
+		font-size: 2.2em;
+	}
+	
+	#hi {
+		font-size: 0.9em;
+	}
 }
 
 @media screen and (max-width: 500px) {
 	
+	#right-links {
+		float: left;
+	}
+
+	#hi h2{
+		font-size: 2em;
+	}
+
+	#hi {
+		font-size: 0.9em;
+	}
+
 	#nav-links button {
 		font-size: 1.1em;
 	}
