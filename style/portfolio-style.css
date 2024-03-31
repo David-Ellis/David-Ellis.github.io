@@ -22,7 +22,7 @@
     border: none;
     cursor: pointer;
     transition: 0.4s;
-    border-radius: 0.3em;
+
 }
 
 #myBtnContainer button:hover {
@@ -47,8 +47,6 @@
     float: left;
     color: #292730;
     padding: 0;
-    border: solid 1px #8c8996;
-    border-radius: 0.3em;
     display: none;
     overflow:hidden;
 }
@@ -62,18 +60,15 @@
 }
 
 .port-img-hue {
-    background:#b983c6e6;
     padding:0;
     margin:0;
 }
 
-.filterDiv img:hover {
-    filter:invert(10%);
-    mix-blend-mode: overlay; 
-}
-
 .filterDiv{
-    box-shadow: 2px 2px 2px #cdcdcd;
+    /*box-shadow: 2px 2px #b983c6;*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
 }
 
 .filterDiv h3 {
@@ -83,8 +78,11 @@
     font-size: 1em;
 }
 
-.filterDiv h3:hover {
-    color: rgb(175,113,190);;
+.filterDiv:hover {
+    transition: 0.2s;
+    box-shadow: 3px 3px #b983c6;
+    margin: -0.2em;
+    padding: 0.2em;
 }
 
 .filterDiv p {
@@ -97,8 +95,6 @@
 .filterDiv hr{
     margin-left: 0.3em;
     margin-right: 0.4em;
-    border: 1px solid  rgb(207, 207, 207);
-    border-radius: 5px;
 }
 
 .filterDiv a:link {
@@ -131,7 +127,6 @@
 
 .hashtag span{
     padding: 2px;
-    border-radius: 0.4em;
     margin-right: 0.2em;
     font-size: 0.9em;
 }
